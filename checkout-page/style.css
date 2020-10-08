@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(27, 94, 94);
+}
+.icon-container input {
+    display: block;
+    width: 80%;
+    height: 2.5em;
+    border: 3px rgba(12, 231, 30, 0.5) solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+}
+p {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shop-list {
+    background-color: rgb(58, 102, 102);
+}
+.first-price, .second-price {
+    font-size: 12px;
+    margin: 5px;
+    padding-right: 6px;
+}
+.first-price {
+    color: orangered;
+}
+.item-counter input {
+    text-align: center;
+    font-weight: 900;
+    width: 130px;
+    height: 25px;
+    outline-style: none;
+    border: solid 4px rgb(4, 75, 4);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 14px;
+}
+h1 {
+    margin-left: 14%;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    font-style: italic;
+
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+.form-section {
+    padding-left: 4em;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+tr, td {
+    border-bottom: 4px solid blue;
+    padding-top: 10px;
+}
+
+table {
+width: 70%;
+}
+img {
+    width: 170px;
+    height: 140px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding-top: 2em;
+}
+section {
+    margin: 9px;
+    border: solid 2px rgb(87, 15, 15);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+input:hover {
+    border: 4px solid rgb(4, 88, 4);
+    transition: 9ms;
+}
+
+label {
+    margin-top: 9px;
+}
+div {
+    margin-top: 6px;
+}
+input[type='checkbox'] {
+    margin-top: 8px;
+    padding: 5px;
+    background-color: teal;
+    height: 1em;
+}
+button {
+    width: 160px;
+    height: 35px;
+    border: 4px solid rgb(4, 88, 4);
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 22%;
+}
+button:hover {
+    outline-style: red solid 6px;
+}
+
+.icon-container {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top: 1.58em;
+    margin-left: 6px;
+    background-color: cornflowerblue;
+    padding: 6px;
+}
+/* main {
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+.country-zip {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.country-zip input {
+    width: 60%; 
+}
+.content {
+    display: grid;
+    grid-template-columns: auto;
+}
+.content-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+@media(min-width: 878px){
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .shop-list {
+        grid-column: 2;
+
+    }
+    .form-section {
+        grid-row: 1;
+    }
+}
